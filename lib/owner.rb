@@ -76,9 +76,7 @@ class Owner
   end
 
   def list_pets
-    @pets.each do | p |
-      puts "I have #{@pets[:fishes]}fish, #{@pets[:cats]}dog(s), and #{@pets[:cats]} cat(s)."
-    end
+      puts "I have #{@pets[:fishes].count}fish, #{@pets[:cats].count}dog(s), and #{@pets[:cats].count} cat(s)."
   end
 
 end
