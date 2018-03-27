@@ -11,7 +11,7 @@ class Owner
   end
 
   def initialize(owner)
-    Owner.new = owner
+    owner = Owner.new
     @owner = owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
