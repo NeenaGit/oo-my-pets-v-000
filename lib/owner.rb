@@ -11,7 +11,7 @@ class Owner
   end
 
   def initialize(owner)
-    owner = Owner.new
+    binding.pry
     @owner = owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
