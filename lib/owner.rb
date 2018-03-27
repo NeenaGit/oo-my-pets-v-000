@@ -67,7 +67,9 @@ class Owner
   end
 
   def sell_pets
-    @pets = {}
+    @pets.each do | pet |
+      binding.pry
+      
   end
 
   def list_pets
