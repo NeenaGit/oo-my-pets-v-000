@@ -71,7 +71,7 @@ class Owner
         pets.each do | pet |
           pet.mood = "nervous"
         end
-     pets = []
+     pets.clear
     end
   end
 
