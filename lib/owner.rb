@@ -6,6 +6,9 @@ class Owner
     @@all = [ ]
   end
 
+  def reset_all
+  end
+
   def initialize
     @pets = {fishes: [], cats: [], dogs: []}
   end
