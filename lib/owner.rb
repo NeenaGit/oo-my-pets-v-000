@@ -10,7 +10,9 @@ class Owner
     self.all.clear
   end
 
-  def initialize
+  def initialize(owner)
+    Owner.new = owner
+    @owner = owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
