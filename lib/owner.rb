@@ -67,8 +67,9 @@ class Owner
   end
 
   def sell_pets
-    @pets.each do | pet |
+    @pets.each do | species |
       binding.pry
+      species. each do | pet |
     end
 
   end
