@@ -22,11 +22,6 @@ class Owner
     self.all.clear
   end
 
-  def species(species)
-    Owner.new = species
-    @species = species
-  end
-
   def say_species
     puts "I am a human."
   end
